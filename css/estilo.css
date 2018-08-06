@@ -20,9 +20,18 @@ body {
 	margin: auto;
 	
 }
+#area-principal{
+	width: 720px;
+	margin: 10px auto 10px auto;
+	
+}
 #menu{
 	float: right;
     padding:10px 0;
+}
+#postagem{
+	padding: 10px;
+	background-color: #fff;
 }
 #logo{
 	float: left;
@@ -49,9 +58,20 @@ a:hover{
 
 /*Links active*/
 a:active{
-	color: #838383;
+	color: #535353;
 
 }
 .verde{
 	color: #d9c941
+}
+.data{
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px:; 
+}
+.img-post{
+	float: left;
+	margin: 0px 10px 10px 0px;
 }
